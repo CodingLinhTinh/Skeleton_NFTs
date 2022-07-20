@@ -55,6 +55,7 @@ node utils/update_info.js
 
 ### Preview
 ![45](https://user-images.githubusercontent.com/92833984/179915960-c561b539-95d0-4624-89b2-102d6eed4009.png)
+
 <em>Một bé Skeleton số 11</em>
 
 👉Có thể truy cập OpenSea của tôi để xem các NFTs: https://testnets.opensea.io/Ngoc-Quach

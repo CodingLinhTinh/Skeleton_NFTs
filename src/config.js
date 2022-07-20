@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 /* START HERE */
 const namePrefix = "Skeletons";
 const description = "A cute Skeleton NFTs for your collection.";
-const baseUri = "ipfs://QmSsipZ5PK2VXTooDTc3fUCqGzYH6VgaD5rsU1Cf7cjcm8";
+const baseUri = "ipfs://YOUR_IMAGE_CID_PINATA";
 
 const solanaMetadata = {
   symbol: "SC",
@@ -16,7 +16,7 @@ const solanaMetadata = {
   external_url: "https://www.youtube.com/c/CodingLinhTinh",
   creators: [
     {
-      address: "0x6e39864E69390b92B5521829cDc9623760147810",
+      address: "0x6e39864E69390b92B5521829cDc9623760147810", // Your wallet id
       share: 100,
     },
   ],
@@ -25,7 +25,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 20, // How much NFTs You wanna create
     layersOrder: [
       { name: "background" },
       { name: "head" },

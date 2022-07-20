@@ -47,7 +47,7 @@ node utils/update_info.js
 
     ⭐<a href='https://faucet.rinkeby.io/'>RinkebyETH Faucet</a>
 
-* Truy cập <a href='https://remix.ethereum.org/'>Remix IDE</a>, trong thư mục <b>contracts</b> tạo một file tên <b>MySmartContract.sol</b> như folder contract ở máy chúng ta.
+* Truy cập <a href='https://remix.ethereum.org/'>Remix IDE</a>, trong thư mục <b>contracts</b> tạo một file tên <b>MySmartContract.sol</b>.
 
 * Vào <b>Deploy & Run Transaction</b>, đổi <b> Environment </b> thành: Wallect Connect. Nó yêu cầu ta INFURA Settings, truy cập <a href='https://infura.io/'>INFURA</a>, tạo một project và copy API KEY của nó dán vào INFURA Settings.
 

@@ -7,7 +7,7 @@
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/codinglinhtinh/Skeleton_NFTs?style=for-the-badge)
 
 ## Description
->Một NFT Engine có thể tạo 10 000 NFTs bằng cách ghép ngẫu nhiên các layer với nhau, sử dụng Pinata để upload các hình ảnh lên IPFS, sau đó sử dụng SmartContract upload các NFT đó lên OpenSea.
+>Tạo được một NFT Engine có thể tạo nhiều NFT cùng lúc bằng cách ghép ngẫu nhiên các layer hình ảnh với nhau, sử dụng Pinata để upload các hình ảnh lên IPFS, bày các NFT đó trên OpenSea, sau đó sử dụng SmartContract mint các NFT đó.
 
 ## Getting Started
 ### 💻 Dependencies

@@ -123,8 +123,6 @@ contract NFT is ERC721Enumerable, Ownable {
   }
 
   function withdraw() public payable onlyOwner {
-    // This will pay HashLips 5% of the initial sale.
-    // You can remove this if you want, or keep it in to support HashLips and his channel.
     // =============================================================================
     (bool hs, ) = payable(0x6e39864E69390b92B5521829cDc9623760147810).call{value: address(this).balance * 5 / 100}("");
     require(hs);

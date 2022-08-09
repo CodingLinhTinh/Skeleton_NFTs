@@ -35,13 +35,16 @@ Có thể chỉnh sửa ở /*START HERE*/ đến /*END HERE*/
 ```
 node index.js
 ```
+==> Tất cả hình ảnh tạo được nằm ở <b>build</b>.
+
+* Truy cập Pinata, upload folder <b>images</b>, sau khi upload, copy CID vào src/config.js đổi YOUR_IMAGE_CID_PINATA thành mã CID, sau đó update các thông tin đã chỉnh sửa.
 
 * Update các thông tin đã chỉnh sửa
 ```
 node utils/update_info.js
 ```
 
-==> Tất cả hình ảnh tạo được nằm ở <b>build</b>.
+* Sau đó upload folder json lên Pinata, copy các CID vào đâu đó để sử dụng ở Remix bên dưới.
 
 * Để upload lên OpenSea, cần có 1 ví như MetaMask. Sau khi có ví Metamask nên chuyển qua <b>Rineby Test Network</b>. Sau đó, t cần RinkebyETH, đi theo link này để nhận một ít ETH:
 
@@ -51,7 +54,12 @@ node utils/update_info.js
 
 * Vào <b>Deploy & Run Transaction</b>, đổi <b> Environment </b> thành: Wallect Connect. Nó yêu cầu ta INFURA Settings, truy cập <a href='https://infura.io/'>INFURA</a>, tạo một project và copy API KEY của nó dán vào INFURA Settings.
 
-* Sau khi xong kết nối, ta đổi CONTRACT(Remix IDE) thành tên file của chúng ta, chọn <b>Deloy</b>.
+* Sau khi xong kết nối, ta thêm file trong CONTRACT(Remix IDE), contract/MySmartContract.sol, chọn kênh để Deploy.
+
+* Trước khi Deploy, điền tên các NFT, Symbol là tên các NFT, _INTBASEURI là 'ipfs://JSON_CID' (dán CID của Json vào)
+![1](https://user-images.githubusercontent.com/92833984/183670916-c3033c05-a94f-4a43-9788-8730e46524ee.png)
+
+===> Mở Opensea xem các file đã được upload chưa :<
 
 ### Preview
 ![45](https://user-images.githubusercontent.com/92833984/179915960-c561b539-95d0-4624-89b2-102d6eed4009.png)
